@@ -1,0 +1,18 @@
+112 LOG
+
+4/14: 3 hours
+4/15: 2 hours
+4/16: 1 hour
+4/21: 3.5 hours
+4/22: 0.5 hours
+4/23: 3 hours
+4/24: 3 hours
+4/25: 5.25 hours
+4/26: 1.5 hours
+4/27: 5 hours
+4/28: 2.5 hours
+4/29: 2.5 hours
+4/30: 3.5 hours
+5/1:  4 hours
+
+Total: 40.25 hours

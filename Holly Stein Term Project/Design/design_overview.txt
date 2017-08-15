@@ -1,0 +1,26 @@
+BASIC DESIGN
+My project is the game of minesweeper played on a world map. The game is written so
+that it is played on top of a picture of a blank map. That is, the program does not
+interact with the background. Within the program, each country is an instance of a 
+class where its unique attributes are stored. Then, each country is stored in a 
+dictionary of countries, where the country name is the key and the instance of the 
+country is the value. 
+
+When the mouse is clicked, methods are called within the class
+to determine whether to uncover it, or to open a dialog box. When the user attempts to
+place a flag and is prompted to name the country, the list of possible countries is
+more likely to be filled with countries nearer to the country clicked rather than 
+those that are farther away. 
+
+USER INTERFACE
+The user interface is designed to be easy to use. For example, when a country is 
+scrolled over, because it can be difficult to see which countries neighbor which
+other countries, the adjacent countries' boxes change color. There is also a review 
+feature for those players who need to brush up on their geography before playing.
+The main menu is accessible at all times in order to change continents, and the 
+instructions are also available at any time in case a player doesn't understand an
+aspect of the game.
+
+FURTHER
+For more aspects of the design as well as a list of people who made suggestions, see
+the file "updates1.txt" in this directory.

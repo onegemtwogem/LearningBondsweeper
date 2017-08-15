@@ -1,0 +1,84 @@
+HOLLY'S UPDATES
+
+FIRST UPDATE
+Since last deliverable, I have written all the code I have so far. 
+
+I have made changes to how the program works from how I imagined it to work. Currently, mouse clicks 
+are only registered within a box in each country, rather than within the countries borders. I have also
+decided to start off by only using a map of Europe, rather than the entire world. 
+
+SECOND UPDATE
+. Both left and right clicking works properly.
+. When you uncover a country that touches no mines, all adjacent countries are uncovered. This is a standard 
+  minesweeper feature
+. There is a start screen with a "begin" button and an "instructions" button.
+. When a country is right-clicked, a window appears asking the player to type in the name of the country. The
+  options for countries given are more likely to be neighboring countries than not. 
+. Water! (for Europe)
+. James Bond (Pierce Brosnan) appears when a mined country is clicked
+. when you print "Game over," diagnose the problem, say "you uncovered a mine" or "wrong country"
+. Trivia to save yourself if you press a mine/Bond finds you
+. Review countries
+. Lots of facts
+. Instructions as a text file
+. Options are weighted with a PROBABILITY DISTRIBUTION that uses RECURSION to calculate probabilities for each step from the country clicked
+. Marked countries are not left-clickable
+. prints number of remaining mines
+. QUADTREES: quadrants, each quad is a key that maps to the countries in that quad, then, when reviewing (or any looping), check only in that quadrant
+. hovering over a country highlights the neighbors
+
+
+SUGGESTIONS:
+# L+R click displays all adj non-mines iff all adj mines are flagged, ugh timer
+. click anywhere in country rather than just in the box
+. more than just europe => the zooming in thing across the whole globe
+. get facts in real time NOOOOOO DON'T DO IT
+# hard to read country names
+. other continents
+. Leaderboard!
+. incorporate some list (?) comprehensions (in the method 'getOptions')
+. type in country: say if you are right, otherwise (when game is over) say the country name
+. increase quality of photo
+. Levels! capitals? no country options given? (just type in the name)
+# polish user interface
+. the zoom thing we talked about, eehhhh
+. add comments and test functions if you have time, style in general
+. connect continents, use an algorithm, play as a whole board where you switch between windows, or is that too annoying?
+. delete print command that prints location of a mouse click
+
+PEOPLE WHO TESTED MY GAME
+. Niki (Golden Goose)
+. Mogan
+. Guochen
+. Jon
+. Deepak
+. Audrey
+. Nicole
+. Chris
+. Alex
+. Hanna
+
+PEOPLE WHO HAVE WON MY GAME
+. Chris
+
+WORDS TO USE
+. memoization
+. breadth-first search
+. probability distribution
+. graph (drawing points and connecting them, nodes and edges)
+	. adjacency list, every node in the list it is connected to
+. mutual recursion
+. quadtree
+
+Trivia found at : 
+http://travelforfreebook.wordpress.com/2012/05/29/25-amazing-facts-about-countries-around-the-world/
+http://www.bestfunfacts.com/countries.html
+http://www.thedailybeast.com/articles/2013/04/23/iceland-s-incest-prevention-app-gets-people-to-bump-their-phones-before-bumping-in-bed.html
+http://www.did-you-knows.com/did-you-know-facts/countries.php
+http://en.wikipedia.org/wiki/Same-sex_marriage
+http://www.slate.com/blogs/the_slatest/2013/04/23/france_gay_marriage_14th_country_to_legalize_same_sex_marriage.html
+http://www.2020site.org/fun-facts/Fun-Facts-About-Europe.html
+http://facts.randomhistory.com/2009/07/23_africa.html
+http://www.10-facts-about.com/Africa/id/17
+http://hikebiketravel.com/6526/10-weird-wonderful-facts-africa/
+
