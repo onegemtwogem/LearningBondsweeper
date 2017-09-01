@@ -8,6 +8,7 @@ import tkSimpleDialog
 
 # writing notes from github
 # MAKE LESS THAN 700
+# It already is less than 700!
 
 class MinesweeperCountry(object): 
     """attributes: location, name, neighbors, mine, visibility, adjacent mines
