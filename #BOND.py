@@ -7,7 +7,6 @@ import tkMessageBox
 import tkSimpleDialog
 
 # writing notes from github
-# this is a nonsuspicious comment
 
 class MinesweeperCountry(object): 
     """attributes: location, name, neighbors, mine, visibility, adjacent mines
