@@ -7,6 +7,7 @@ import random
 import tkMessageBox
 import tkSimpleDialog
 
+#here is a change 
 
 class MinesweeperCountry(object): 
     """attributes: location, name, neighbors, mine, visibility, adjacent mines
